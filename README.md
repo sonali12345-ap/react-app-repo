@@ -21,17 +21,17 @@
 
 # Create GitHub repository
 1. Initialize git in your project
-     git init
+    * git init
 2. Add your remote repo
-     git remote add origin <your_repo_url>
+    * git remote add origin <your_repo_url>
 3. Add all files
-     git add .
+    * git add .
 4. Commit changes
-    git commit -m "Initial comment"
+    * git commit -m "Initial comment"
 5. push to GitHub if  the code is from branch main
-    git push -u origin main
+    * git push -u origin main
 6. If not then set the branch and then push
-    git branch -M main
+    * git branch -M main
 
 # Launch an EC2 instance(ubuntu)
 1. Launch an EC2 instance(ubuntu)
