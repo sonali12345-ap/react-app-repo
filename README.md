@@ -6,7 +6,7 @@
 # steps to create react app
 1. make directoery to your local machine and open in vs code
 2. using vs code create react app using command
-    npx create-react-app <app-name>
+    npx create-react-app <app_name>
 3. Navigate to the app directory
     cd <directory>
 4. use the commands to start app on local machine
@@ -23,7 +23,7 @@
 1. Initialize git in your project
      git init
 2. Add your remote repo
-     git remote add origin <your-repo-url>
+     git remote add origin <your_repo_url>
 3. Add all files
      git add .
 4. Commit changes
@@ -45,13 +45,13 @@
 4. newgrp docker
 
 # Clone your github repo
-1. git clone <your-repo-name>
+1. git clone <your_repo_name>
 2. Navigate to your project directory
    cd<directory>
 
 # Build and run Docker image
 1. docker build . -t <image_name>
-2. docker run -d --name <container-name> -p 3000:3000 <image-name>
+2. docker run -d --name <container_name> -p 3000:3000 <image_name>
 
 # Access your app 
  Open your browser and go to http://<your_ec2_public_ip>:3000
