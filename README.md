@@ -51,7 +51,7 @@
 
 # Build and run Docker image
 1. docker build . -t <image_name>
-2. docker run -d --name <container-name> -p 3000:3000 <image-ID>
+2. docker run -d --name <container-name> -p 3000:3000 <image-name>
 
 # Access your app 
  Open your browser and go to http://<your_ec2_public_ip>:3000
