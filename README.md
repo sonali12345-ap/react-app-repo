@@ -50,7 +50,7 @@
    cd<directory>
 
 # Build and run Docker image
-1. docker build . -t <name>
+1. docker build . -t <image_name>
 2. docker run -d --name <container-name> -p 3000:3000 <image-ID>
 
 # Access your app 
